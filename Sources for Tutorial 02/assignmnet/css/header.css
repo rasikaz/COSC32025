@@ -1,0 +1,25 @@
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+
+p{
+    font-size: 170%;
+    font-style: italic;
+    font-weight: bold;
+}
+img{
+    width: 20%;
+    height: 15%;
+}
+
+div{
+    position: absolute;
+    left: 50%;
+}
+
+td{
+    text-align: center;
+}
+
+
