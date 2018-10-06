@@ -1,0 +1,21 @@
+div#intro{
+    padding: 30px;
+    background-color: #dee2e2;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
+div.topic{
+    font-size: 20px;
+    background-color:#0cd64f;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+ div.content{
+     text-align: justify;
+     font-size: 15px
+ }
