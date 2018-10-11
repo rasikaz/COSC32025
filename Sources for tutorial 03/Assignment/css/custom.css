@@ -9,6 +9,9 @@ header{
     text-align: center;
 }
 
+img{
+    max-width: 100px;
+}
 .navbar{
     /*width: 20%;*/
     /*border: 2px solid wheat;*/
@@ -69,7 +72,7 @@ header{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-.ourwork>h3{
+.ourwork>h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: darkblue;
@@ -91,15 +94,39 @@ header{
     display: inline-block;
 }
 
+.service-item>div h4{
+    font-style: italic;
+}
+
 .ourservice{
     text-align: center;
     background-color:orange;
     position: relative;
+    color: white;
 }
 
 .service-item h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
+}
+
+.brands{
+    text-align: center;
+}
+
+.brands>h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+.brands>div{
+    display: inline-block;
+    /*border: 2px solid blue;*/
+    width: 10%;
+}
+
+.brands>div>div{
+    text-align: left;
 }
 
