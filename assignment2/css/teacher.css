@@ -1,0 +1,19 @@
+.right-container {
+  display: none;
+}
+#header {
+  background-image: url("../images/teachpro.jpg");
+  height: 90%;
+}
+th p {
+  border-bottom: 2px solid white;
+  text-align: left;
+}
+/*table,
+th,
+td {
+  border: 2px solid firebrick;
+}*/
+.footer-text {
+  left: 65%;
+}

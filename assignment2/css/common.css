@@ -1,0 +1,174 @@
+body {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: aliceblue;
+  font-size: 18px;
+}
+hr {
+  background-color: aliceblue;
+}
+#header {
+  width: auto;
+  height: 85%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+#header h1 {
+  color: aliceblue;
+  padding-left: 15%;
+}
+
+.navbar {
+  background-color: black;
+  text-align: center;
+  height: 3em;
+  opacity: 0.7;
+}
+.navbar ul {
+  list-style-type: none;
+  padding-top: 5px;
+}
+.navbar ul li {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.navbar ul li a {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.navbar li a:hover {
+  font-weight: bold;
+  /*border-bottom: 10px solid chartreuse;*/
+}
+.navbar li:hover {
+  border-bottom: 8px solid black;
+}
+.header-box {
+  color: white;
+  position: absolute;
+  bottom: 25%;
+  right: 15%;
+  /* border: 2px solid red;*/
+  width: auto;
+  font-size: 45px;
+  text-align: left;
+  font-weight: bold;
+  opacity: 1;
+  transition: all 1.5s linear;
+}
+.container {
+  margin-top: 150px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+  background-color: #2b2c2d;
+  /*z-index: 1;*/
+}
+.left-container {
+  float: left;
+  width: 75%;
+  display: block;
+  /*background-color: bisque;*/
+}
+.container-text {
+  padding-right: 35%;
+}
+.container-text hr {
+  width: 120%;
+}
+.right-container {
+  float: right;
+  width: 25%;
+  display: block;
+  /*background-color: blueviolet;*/
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+}
+.card {
+  width: 22%;
+  float: left;
+  padding-left: 20px;
+  text-align: left;
+}
+.card-container {
+  padding-left: 0px;
+}
+.clear {
+  clear: both;
+  display: table;
+}
+
+.right-container ul {
+  list-style: none;
+  padding: 0;
+  padding-right: 40%;
+}
+.right-container a {
+  font-size: 20px;
+  color: aliceblue;
+}
+.right-container li a:visited {
+  color: blue;
+}
+.right-container li a:link {
+  color: white;
+}
+
+.right-container li:hover {
+  transform: scale(1.5);
+  padding-left: 30px;
+}
+.footer {
+  height: 150px;
+  width: 100%;
+}
+.follow {
+  /* border: 2px solid darkkhaki;*/
+  width: 15%;
+  position: relative;
+  top: 20%;
+  left: 150px;
+}
+
+.follow img {
+  width: 20px;
+  height: 20px;
+}
+
+.follow ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: -15px;
+}
+
+.follow li {
+  display: inline;
+}
+.follow a {
+  padding-left: 2px;
+}
+
+.footer-text h2 {
+  color: aliceblue;
+}
+
+.footer-text {
+  position: relative;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  /* border: 2px solid darkcyan;*/
+  bottom: 30%;
+}

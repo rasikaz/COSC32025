@@ -1,0 +1,17 @@
+#header {
+  background-image: url("../images/learn.jpg");
+  height: 90%;
+}
+
+.card-container {
+  display: none;
+}
+.container {
+  height: 500px;
+}
+.right-container li a {
+  color: red;
+}
+.footer-text {
+  left: 65%;
+}

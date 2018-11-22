@@ -1,0 +1,15 @@
+#header {
+  background-image: url("../images/aqua.jpg");
+  height: 90%;
+}
+.header-box {
+  color: red;
+}
+.more {
+  position: absolute;
+  right: 20%;
+}
+
+.footer-text {
+  left: 65%;
+}

@@ -1,0 +1,21 @@
+#header {
+  background-image: url("../images/uw_goldfish.jpg");
+  height: 90%;
+}
+.header-box:hover {
+  transform: translateX(-850px);
+}
+.more {
+  position: absolute;
+  right: 20%;
+}
+.right-container div {
+  position: relative;
+  color: aliceblue;
+  padding-right: 40%;
+  bottom: -460px;
+}
+
+.footer-text {
+  left: 50%;
+}

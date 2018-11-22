@@ -1,0 +1,10 @@
+#header {
+  background-image: url("../images/tang.jpg");
+}
+
+.container {
+  height: 500px;
+}
+.footer-text {
+  left: 65%;
+}
