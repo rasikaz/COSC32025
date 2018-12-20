@@ -1,0 +1,47 @@
+
+
+#container {
+  border: 2px solid black;
+  background-color: seashell;
+  margin: auto 100px;
+}
+.form-container{
+  border: 1px solid blue;
+  background-color: beige;
+  margin: 5px 5px;
+}
+.field-name{
+  width: 200px;
+  text-align: center;
+}
+.field-data{
+  width: 500px;
+  text-align: center;
+}
+input[type=text],select{
+  width: 100%;
+}
+input[type=submit],input[type=file]{
+  width: 200px;
+  cursor: pointer;
+}
+.search{
+  border: 1px solid blue;
+  background-color: beige;
+  margin: 5px 5px;
+}
+.result{
+  border: 1px solid blue;
+  background-color: cornflowerblue;
+  margin: 5px 5px;
+}
+
+table#searchtbl, th, td {
+  border: 1px solid black;
+  width: 1000px;
+}
+
+table#searchtbl{
+  border-collapse: collapse;
+}
+
